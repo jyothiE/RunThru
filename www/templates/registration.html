@@ -1,0 +1,20 @@
+<body>
+
+<form ng-controller="registrationCtrl" name="registrationForm" novalidate>
+	<p>
+		<label>Username:</label>
+		<input type="text" class="form-control" name="username" ng-model="username" required >
+		<span ng-show="sampleForm.username.$error.required">Username is required.</span>
+	</p>
+	<p>
+		<label>Email:</label>
+		<input type="email" class="form-control" name="email" ng-model="email" required>
+		<span ng-show="sampleForm.email.$error.required">Email is required.</span>
+		<span ng-show="sampleForm.email.$error.email">Invalid email address.</span>
+	</p>
+	<p>
+		<button class="btn btn-link" ng-click="reset()">Reset</button>
+		<input type="submit" class="btn btn-primary" ng-disabled="sampleForm.$invalid" ng-click="checkData()">
+	</p>
+</form>
+</body>

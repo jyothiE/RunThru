@@ -1,0 +1,420 @@
+/* Empty. Add your own CSS if you like */
+body{
+    background-color: #000;
+    padding: 20px;
+
+}
+html{
+    overflow: scroll;
+}
+.padTB{
+    padding: 5px 0 0 0 !important;
+}
+.padT{
+    padding-bottom: 5px !important;
+}
+.red{
+    color: #ED004E;
+}
+.text-orange{
+    color: #F80000 !important;
+}
+.text-dark-red{
+    color: #A82F41;
+}
+
+.bg-banner{
+    background: url('../img/bg-banner.jpg') no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 100%;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+
+}
+.bg-banner h1{
+    color: #fff;
+    padding-top: 60px;
+    letter-spacing: 2px;
+    font-size:42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bg-banner .btn-password{
+    width: 250px;
+    display: block;
+    margin: auto 0 40px;
+    position: absolute;
+    top:50%;
+    left: 15%;
+    color: #fff;
+    transform: translateX(50%);  
+    transform: translateY(15%);
+    background-color: transparent;
+    border-color: #fff;
+
+}
+.bg-banner .btn-login{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:70%;
+    left: 15%;
+    color: #fff;
+    transform: translateX(70%);
+    transform: translateY(15%);
+    background-color: #00A3D6;
+    border-color: #00A3D6;
+}
+.top-header{
+    background-color: #EE004E;
+    color: #fff;
+    position: relative;
+    z-index: 999;
+}
+.top-header i{
+    font-size: 34px;
+
+}
+.top-header h1{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.bg-event{
+    background: url('../img/bg-event.jpg') no-repeat;
+    background-size: cover;
+    min-height:400px;
+    max-height: 100%;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    z-index: 2;  
+    position: relative;
+}
+.bg-event .post{
+    padding: 20px 30px;
+    color: #736773;
+    font-size: 24px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.bg-event .post strong{
+    line-height: 40px;
+}
+.bg-event-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(255,255,255,0.5)
+}
+.bg-event h4{
+    color: #333; 
+    text-align: center;
+    padding-top: 10%;
+    margin: 0;
+    text-transform: uppercase;
+}
+.bg-event h3{
+    color: #363544;
+    font-size: 20px;
+    z-index: 999;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.guest-image {
+    position: absolute;
+    text-align: right;
+    bottom: -55px;
+    width: 100%;
+    z-index: 99;
+}
+.guest-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #363544;
+    z-index: 0;
+    display: block;
+    margin: 0 auto;
+
+}
+.nav-icon{
+    position: static;
+    background-color: #fff;
+    z-index: 0;
+    min-height: 55px;
+}
+.nav-icon a{
+    padding: 0 50px 0 20px;
+    color: #A3A8AB;
+}
+.nav-icon .icon{
+    font-size: 45px; 
+    display: block;
+    text-align: left;
+}
+
+.thumbnail-wrapper{
+    background-color: #fff;
+}
+.thumbnail-wrapper .row{
+    padding:  0; 
+}
+.thumbnail-wrapper .col{
+    max-width: 45%;
+    padding: 0;
+}
+.thumbnail-wrapper .item-thumbnail{
+    height: 100%;
+    width: 100%;
+    padding: 0 5px 0px 0;
+}
+.guest-time{
+    border-top:1px solid #545454;
+    min-height: 80px;
+    position: static;
+}
+.guest-time h3{
+    line-height: 45px;
+    width: 70%;
+    font-size: 24px;
+}
+.guest-time span{
+    color: #A3A8AB;
+    font-size: 24px;
+    line-height: 45px;
+}
+.guest-time span i{
+    margin-right: 10px;
+}
+.guest-time img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    border: 2px solid #E3E0B9;
+}
+.team-room-pilot{
+    padding: 0;
+    margin: 0 0 -5px;
+    background-color: #fff;
+}
+.team-room-pilot img{
+    width: 100%; 
+}
+.chat-bar{
+    background-color: #E6E3E6;
+    border-top: 2px solid #A3A8AB;
+    border-bottom: 2px solid #A3A8AB;
+}
+.chat-bar a{
+    color: #A3A8AB;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration: none;
+}
+.descreption-of-picture{
+    background-color: #fff;
+    padding: 30px;
+}
+.descreption-of-picture h2{
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: normal;
+    font-size: 20px;
+}
+.descreption-of-picture h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #5F5F5F;
+    font-size: 18px;
+}
+.descreption-of-picture p{
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+/**********************************************************************************
+                                  Footer For The Application
+***********************************************************************************/
+.footer-wrapper .tabs{
+    position: static;
+    min-height: 60px;
+    line-height: 60px;
+    border-top: 0;
+    border-color:#2A2B2F; 
+    background-color: #2A2B2F;
+}
+.footer-wrapper .tabs .tab-item {
+    max-width: 100px;
+}
+.footer-wrapper .tabs .tab-item i{
+    color: #A3A8AB;
+    font-size: 36px;
+}
+.footer-wrapper .tabs .tab-item.active i{
+    color: #fff;
+}
+.footer-wrapper .tabs .tab-item.tab-item-active, .tab-item.active, .tab-item.activated{
+    background-color: #EE004E;
+    color: #fff;   
+}
+
+
+
+/*******************************************************************************
+                             Registration Style For The Application
+*********************************************************************************/
+.main-content{
+    background-color: #fff;
+
+
+}
+.main-content .registration-details{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px dotted #ED004E;
+}
+.main-content .registration-details img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid #959595;
+}
+.main-content .registration-details p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 1px;
+}
+.main-content .registration-details a{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 15px;
+    color: #949494;
+    display: inline-block;
+}
+.main-content .registration-details .item-input{
+    border-radius: 6px;
+    border: 2px solid #B94449;
+    text-align: center;
+}
+.main-content .registration-details .item-input input::-webkit-input-placeholder{
+    color: #F13C77;
+    text-transform: uppercase;
+    text-align:center;
+}
+.main-content .login-with-facebook{
+    text-align: center;
+    padding: 30px;
+}
+.main-content .login-with-facebook .button{
+   background-color: #2A4687;
+   padding: 10px 15px;
+   border-radius: 6px;
+   color: #fff;
+   font-size: 20px;
+}
+.main-content .login-with-facebook .button i{
+    margin-right: 10px;
+}
+.footer-registration button{
+    background-color: #EC004D;
+    padding: 20px 30px;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 6px solid  #8A002B;
+    border-left: 2px solid  #EC004D;
+    border-right: 2px solid  #EC004D;
+   
+}
+
+/*******************************************************************************
+                             Media Query For The Application
+*********************************************************************************/
+
+/* Portrait and Landscape */
+@media (min-device-width: 480px) and (max-device-width: 767px){
+    .bg-banner h1{
+        padding-top: 25px;
+    }
+    .bg-banner .btn-password{
+        top: 40%;
+        left: 30%;
+        transform: translateX(50%);  
+        transform: translateY(30%);
+    }   
+    .bg-banner .btn-login{
+        top: 70%;
+        left: 30%;
+        transform: translateX(70%);  
+        transform: translateY(30%);
+    }   
+
+}
+@media (min-device-width: 300px) and (max-device-width: 480px){
+    .bg-banner{
+        min-height: 300px;
+    }
+    .bg-event{
+        min-height: 300px;
+    }
+    .bg-event .post{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .bg-event .post strong{
+        line-height: 20px;
+    }
+    .bg-event h4{
+        padding-top: 40px;
+    }
+    .bg-event h3{
+        font-size: 18px;
+    }
+    .guest-image{
+        right: 30px;
+        bottom: -40px;
+    }
+    .guest-image img{
+        height: 90px;
+        width: 90px;
+    }
+    .guest-time h3{
+        font-size: 18px;
+        width: 60%;
+    }
+    .guest-time span{
+        font-size: 18px;
+    }
+    .guest-time img{
+        height: 50px;
+        width: 50px;
+        top: 10px;
+    }
+    .descreption-of-picture{
+        padding: 10px;
+    }
+    .descreption-of-picture h2{
+        font-size: 18px;
+    }
+    .descreption-of-picture p{
+        font-size: 15px;
+    }
+    .descreption-of-picture h3{
+        font-size: 12px;
+    }
+
+}

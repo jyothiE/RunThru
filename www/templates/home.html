@@ -1,0 +1,60 @@
+<body>
+
+    <ion-pane>
+        <div class="bar-header top-header">
+            <div class="row">
+                <div class="col col-33">
+                    <i class="ion-android-arrow-back"></i>
+                </div>
+                <div class="col col-60">
+                    <h1 class="title">
+                        Registration
+                    </h1> 
+                </div>
+            </div>
+        </div>  
+
+        <ion-content>
+            <div class="main-content">
+                <div class="registration-details"  ng-controller="ExampleController">
+                    <!-- <img src="img/user-icon.png" ng-src="{{lastPhoto}}" alt=""/>  -->
+                    <img src="img/user-icon.png"  ng-src="{{imgURI}}"  > 
+
+                    <p class="red">Take a photo</p>
+
+                    <a ng-click="choosePhoto()">
+                        <i class="ion-ios-photos"></i>
+                    </a>
+                    <a ng-click="takePhoto()">
+                        <i class="ion-ios-camera" ></i>
+                    </a>
+
+                    <div class="list">
+                        <label class="item item-input">
+                            <input class="red input-large" type="text" placeholder="input full name">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="login-with-facebook" ng-controller="AppCtrl">
+                    
+                    <button class="button button-block" ng-click="fbLogin()">
+                        <i class="ion-social-facebook"></i>
+                        Login with Face book
+                       
+                    </button>
+                       
+                </div>
+            </div>
+
+            <div class="footer-registration" ng-controller="registrationCtrl">
+                <button class="buttton button-block" ng-click="go('/reg')" >Registration</button> 
+            </div>
+        </ion-content>
+
+
+
+    </ion-pane>
+
+
+</body>
