@@ -120,7 +120,10 @@ angular.module('starter.controllers', ['ngOpenFB'])
         $scope.go = function( path ) {
         $location.path( path );
       }
+      data ={"userId": 32,"id": 32,"title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"};
       $scope.user=custumServ.getUserDetails();
+      $scope.userDetails = custumServ.postUserDetails(data);
+      console.log($scope.userDetails);
       console.log($scope.user);
     }])
 //   .controller('registrationCtrl', ['custumServ', function (custumServ) {
